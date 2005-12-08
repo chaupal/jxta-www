@@ -1,0 +1,2 @@
+jxta:*:Observer:APPROVE
+jxta:*:*:DEFAULT Observer defaultReason.txt
