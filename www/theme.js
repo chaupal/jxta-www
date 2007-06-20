@@ -353,7 +353,7 @@ function djnInit() {
 		
 		var html = [];
 		
-		html.push("<a href=https://jxta.dev.java.net/><img src=https://jxta.dev.java.net/sun-jxta.gif></a>");
+		html.push("<a href=https://jxta.dev.java.net/><img src=https://jxta.dev.java.net/sun_jxta.gif></a>");
 		html.push("<a href=https://jxta.dev.java.net/>JXTA</a>");
 		
 		function append(url,title) {
