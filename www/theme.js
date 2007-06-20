@@ -19,8 +19,11 @@ var regions = [
   		{ title: "C/C++/C#", href: "https://jxta-c.dev.java.net/" },
   		{ title: "Java ME", href: "https://jxta-jxme.dev.java.net/" },
   		{ title: "Tutorial", href: "https://jxta-guide.dev.java.net/" },
-  		{ title: "Wiki", href: "http://wiki.java.net/bin/view/Jxta/WebHome" }
   	]
+  },
+  {     title: "Wiki", 
+        href: "http://wiki.java.net/bin/view/Jxta/WebHome",
+  	match: []
   }
 /*  ,
   {
