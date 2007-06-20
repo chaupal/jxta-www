@@ -1,12 +1,111 @@
- 
+</dd>
+<script>document.getElementById("main").parentNode.style.display="none";</script>
+<dd id=menubar>
+  <!-- menubar for the main site -->
+  <ul id="main-menubar">
+    <li>
+      <a href="http://download.java.net/jxta">Downloads</a>
+    </li>
+    <li>
+      <a href="/servlets/ProjectNewsList">Announcements</a>
+    </li>
+    <li>
+      <a href="/servlets/ProjectMailingListList">Mailing lists</a>
+    </li>
+    <li>
+      <a href="#">Using JXTA</a>
+      <ul>
+        <li>
+          <a href="http://wiki.java.net/bin/view/Jxta/JxtaFAQ">JXTA FAQ</a>
+        </li>
+        <li>
+          <a href="http://wiki.java.net/bin/view/Jxta/WebHome">JXTA Wiki</a>
+        </li>
+        <li>
+          <a href="https://jxta-guide.dev.java.net/source/browse/*checkout*/jxta-guide/trunk/src/guide_v2.5/JXSE_ProgGuide_v2.5_draft.pdf">Programmer's Guide</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#" match="/bindings.html">JXTA bindings</a>
+      <ul>
+        <li>
+          <a href="http://jxta-jxse.dev.java.net">For Java SE</a>
+        </li>
+        <li>
+          <a href="http://jxta-c.dev.java.net">For C/C++/C#</a>
+        </li>
+        <li>
+          <a href="http://jxta-jxme.dev.java.net">For Java ME</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Developing JXTA</a>
+      <ul>
+        <li>
+          <a href="http://jxta-spec.dev.java.net/">Specification</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
 
-  <div> <a href="http://www.jxta.org"></a></div>
-  <div> <a href="http://wiki.java.net/bin/view/Jxta/WebHome">wiki</a> </div>
-  <div><a href="http://www.jxta.org/project/www/maillist.html">mailing lists</a> 
-  </div>
-  <div><a href="http://www.jxta.org/project/www/maillist.html">FAQ</a></div>
-  <div><a href="http://www.jxta.org/project/www/white_papers.html">White papers</a></div>
+<script>
+var info = {
+  title: "Community"
+};
+</script>
 
-<p> 
-<hr>
-<!--survey was created using coolsurveys.com -->
+<script src="theme.js"></script>
+
+<!-- create the location bar short-cut -->
+<script>
+addLoadEvent(function() {
+	var html = [];
+
+	function addIcon(href,image,text) {
+		html.push("<div align=center style='float:right; margin:0.5em;'><a href='");
+		html.push(href);
+		html.push("'><img border=0 alt='");
+		html.push(text);
+		html.push("' src='/image/");
+		html.push(image);
+		html.push("'/></a><br><a href='");
+		html.push(href);
+		html.push("'>");
+		html.push(text);
+		html.push("</a></div>");
+	}
+	
+	// added in the reverse order
+	addIcon("http://wiki.java.net/bin/view/Jxta/WhatIsJxta","communities.gif","Get Started");
+	addIcon("http://download.java.net/jxta","download.gif","Download");
+	
+	var div = document.createElement("div");
+	div.innerHTML = html.join('');
+	div.style.float = "right";
+	div.style.marginTop = "1em";
+	
+	var logobox = document.getElementById("logo-box");
+	logobox.parentNode.insertBefore(div,logobox);
+});
+</script>
+
+
+<!-- the following code is required by statcounter for project GlassFish. REMOVE ONLY if this file is included in a project other than GlassFish -->
+<!-- Start of StatCounter Code -->
+<!-- JXTA is not using it
+<script type="text/javascript" language="javascript">
+var sc_project=1289830;
+var sc_invisible=1;
+var sc_partition=11;
+var sc_security="ae5ef92d";
+var sc_https=1;
+</script>
+
+<script type="text/javascript" language="javascript" src="https://secure.statcounter.com/counter/counter.js"></script>
+<noscript><a href="http://www.statcounter.com/" target="_blank"><img
+src="https://c12.statcounter.com/counter.php?sc_project=1289830&amp;amp;java=0&amp;amp;security=ae5ef92d&amp;amp;invisible=1"
+alt="stats count" border="0"></a> </noscript>
+-->
+<!-- End of StatCounter Code -->

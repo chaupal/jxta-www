@@ -14,6 +14,7 @@ var regions = [
   	match: [
   	],
   	children: [
+  		{ title: "Specification", href: "https://jxta-spec.dev.java.net/" },
   		{ title: "Java SE", href: "https://jxta-jxse.dev.java.net/" },
   		{ title: "C/C++/C#", href: "https://jxta-c.dev.java.net/" },
   		{ title: "Java ME", href: "https://jxta-jxme.dev.java.net/" },
@@ -398,7 +399,7 @@ function djnInit() {
 }
 
 if(window.location.href.indexOf("http://localhost:8080/")!=-1
-|| window.location.href.indexOf("http://wiki.glassfish.java.net/")!=-1)
+|| window.location.href.indexOf("http://wiki.jxta.java.net/")!=-1)
 	addLoadEvent(wikiInit);
 else {
 	// add referene to theme.css
