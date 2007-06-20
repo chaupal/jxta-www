@@ -393,7 +393,7 @@ function djnInit() {
 		pt.parentNode.insertBefore(box,pt.nextSibling);
 		
 		box.id = "hosted-on-javanet";
-		box.innerHTML = "A <a href='https://www.java.net/'>java.net</a> project";
+		box.innerHTML = "<a href='https://www.java.net/'><img src='http://jxta.dev.java.net/image/javanet_button_170.gif'></a>";
 	})();
 
 	// re-display everything
