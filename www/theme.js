@@ -18,7 +18,7 @@ var regions = [
   		{ title: "Java SE", href: "https://jxta-jxse.dev.java.net/" },
   		{ title: "C/C++/C#", href: "https://jxta-c.dev.java.net/" },
   		{ title: "Java ME", href: "https://jxta-jxme.dev.java.net/" },
-  		{ title: "Tutorial", href: "https://jxta-guide.dev.java.net/" },
+  		{ title: "Tutorial", href: "https://jxta-guide.dev.java.net/" }
   	]
   },
   {     title: "Wiki", 
