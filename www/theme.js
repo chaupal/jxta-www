@@ -14,6 +14,7 @@ var regions = [
   	match: [
   	],
   	children: [
+  		{ title: "Home", href: "https://jxta.dev.java.net/" },
   		{ title: "Specification", href: "https://jxta-spec.dev.java.net/" },
   		{ title: "Java SE", href: "https://jxta-jxse.dev.java.net/" },
   		{ title: "C/C++/C#", href: "https://jxta-c.dev.java.net/" },
