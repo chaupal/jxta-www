@@ -352,6 +352,9 @@ function djnInit() {
 
 	// update the top-left corner of the page from the current project information
 	(function() {
+	 	/* don't update logo-box if exist */
+		if (null != document.getElementById("logo-box"))
+			return;
 		var box = document.createElement("div");
 		box.id = "logo-box";
 		
