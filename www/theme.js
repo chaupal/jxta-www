@@ -398,6 +398,8 @@ function djnInit() {
 		
 		box.id = "hosted-on-javanet";
 		box.innerHTML = "<a href='https://www.java.net/'><img src='https://jxta.dev.java.net/image/javanet_button_170.gif'></a>";
+		box.innerHTML += "<a href='http://glassfish.dev.java.net/'><img src='image/glassfish_logo.gif'></a>"
+		box.innerHTML += "<a href='http://java.sun.com/'><img src='image/java_logo_rgb.png'></a>"
 	})();
 
 	// re-display everything
