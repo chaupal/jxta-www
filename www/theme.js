@@ -397,9 +397,9 @@ function djnInit() {
 		pt.parentNode.insertBefore(box,pt.nextSibling);
 		
 		box.id = "hosted-on-javanet";
-		box.innerHTML = "<a href='http://www.java.net/'><img src='https://jxta.dev.java.net/image/javanet_button_170.gif'></a>";
-		box.innerHTML += "<a href='http://glassfish.dev.java.net/'><img src='http://jxta.dev.java.net/image/glassfish_logo.gif'></a>"
-		box.innerHTML += "<a href='http://java.sun.com/'><img src='http://jxta.dev.java.net/image/java_logo_rgb.png'></a>"
+		box.innerHTML = "<a href='http://www.java.net/'><img src='https://jxta.dev.java.net/image/javanet_button_170.gif'></a></br>";
+		box.innerHTML += "<a href='http://glassfish.dev.java.net/'><img src='http://jxta.dev.java.net/image/glassfish_logo.gif'></a></br>"
+		box.innerHTML += "<a href='http://java.sun.com/'><img src='http://jxta.dev.java.net/image/java_logo_rgb.png'></a></br>"
 	})();
 
 	// re-display everything
