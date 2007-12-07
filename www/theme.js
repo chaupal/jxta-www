@@ -9,6 +9,11 @@ var regions = [
   	match: []
   },
   {
+  	title: "Governance",
+  	href:  "https://jxta.dev.java.net/govern.htm",
+  	match: []
+  },
+  {
   	title: "Core",
   	href:  "https://jxta.dev.java.net/",
   	match: [
