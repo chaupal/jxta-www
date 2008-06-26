@@ -1,0 +1,123 @@
+
+<TABLE cellSpacing=0 cellPading=0 width="100%" border=0>
+<TR vAlign=top>
+<TD height=10><SPACER height="10" width="1" type="block"></TD></TR>
+<TR>
+<TD vAlign=top><FONT color=#990000><SPAN class=Header><B>Developer Spotlight</B></SPAN></FONT></TD></TR></TABLE><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR>
+<TD class=PlainText vAlign=top width="100%" height="100%"><BR><BR>
+
+<img src="/branding/images/brad_neuberg.jpg" height="130" ALIGN="LEFT">
+
+      <P> Brad Neuberg started working with Project JXTA in June 2002 and works 
+        full-time on Project JXTA. (Yes, the photo to the left is a bit dated.) 
+        He's an independent developer in San Francisco, CA who is working on<a href="http://p2psockets.jxta.org"> 
+        JXTA P2P Sockets</a> and <a href="https://paperairplane.dev.java.net/">Paper 
+        Airplane</a>. 
+      <p> <a href="http://p2psockets.jxta.org/servlets/ProjectHome">JXTA P2P Sockets</a> 
+        builds on the JXTA Sockets work of Daniel Brookshier and ideas from James 
+        Todd at Sun Microsystems. Imagine writing servlets that receive their 
+        requests and responses over the JXTA network; web servers that serve their 
+        web pages over JXTA; or enterprise web services that work over JXTA and 
+        can fail-over across JXTA peers. Imagine running all of these services 
+        using standard open-source software such as Jetty or Tomcat. The secret 
+        to achieving this lies in standard Java sockets and server sockets. 
+            
+      <p> Almost all network software that is built using Java depends on two 
+        key classes, java.net.Socket and java.net.ServerSocket. The JXTA P2P Sockets 
+        project is creating implementations of these two classes that communicate 
+        using the JXTA network rather than standard TCP/IP channels, effectively 
+        'tricking' any software using them into communicating and resolving addresses 
+        using JXTA instead of standard TCP/IP. The network software thinks they 
+        are simply using standard sockets and resolving domain names and IP addresses 
+        using TCP/IP when they are actually using JXTA primitives instead. The P2P Sockets project already includes a large
+amount of software ported to use the peer-to-peer
+network, including the web server Jetty, a servlet and
+JSP engine, an XML-RPC client and server (library, and
+more.  See the <a href="http://p2psockets.jxta.org">JXTA P2P Sockets</a> web-site for the 1.0 beta 1 release.
+      <p>
+The other project is Paper Airplane, a plug-in for the
+Mozilla browser that uses JXTA.   Paper Airplane
+empowers people to easily create collaborative
+communities without setting up servers or spending
+money. It does this by integrating a web server into
+the browser itself, including tools to create
+collaborative online communities that are stored on
+the machine. Web sites are stored locally on a user's
+machine. A JXTA peer network is created between all of
+the Paper Airplane nodes that are running. 
+
+<p>
+This peer
+network does a variety of things; first, it helps to
+forward requests to web servers that may be running
+behind firewalls or NATs, allowing users to host and
+create collaborative communities on their machines
+where in the past they would not have been able to due
+to network filtering. Second, the peer network creates
+an alternative domain name system to the existing one,
+allowing users to freely use hundreds of new domain
+endings, such as .politics, .environment, .love,
+.name, .crush, .marryme, .laborpolicy, .gay, and more.
+ Every "web site" is actually a peer group, and domain
+name resolution simply happens through peer group
+advertisements.  Every Paper Airplane web site also
+includes simple instant messaging and discussion
+forums.  Basically its a distributed, browser based
+WikiWiki system built on top of JXTA, with a very
+simple, non-secure domain name system based on JXTA
+advertisements.  Look for a code release in the next
+few months.
+
+<p>
+Brad believes JXTA should focus very strongly on two
+things: end-user usability and programmer usability. 
+JXTA should attempt to auto-configure as much as
+possible to 'remove' itself from the end-users view,
+such as autodetecting if the user is behind a firewall
+or NAT device, and present concepts to the end-user
+that are already familiar such as 'web site' instead
+of peer groups or 'domain name' instead of peer group
+URN/Name.  For example, instead of asking the user
+through a user-interface to 'Create a peer group for
+communicating with others' with the peer group name
+'Acme Company', it would look more like 'Create a
+web-site for communicating with others' with the
+domain name 'www.acme.company'.  If another user
+wanted to resolve and find this peer group, they would
+simply type 'www.acme.company' into the programs
+Location Bar and be taken to this site/peer group. 
+While this is technically less-correct it is
+intuitively clearer; sometimes you have to be
+technically incorrect to get a concept across
+correctly.  
+
+      <p> The second goal should be on programmer usability. Programmers need 
+        usability just as much as end-users do; their 'user-interface' is the 
+        API. Brad believes JXTA should disappear as an API and become more of 
+        a raw transport channel, and the programming model should look and feel 
+        like what programmers are used to now. The lower-level JXTA API should 
+        still be available, though, for power users or for when the metaphor shown 
+        to the programmer is incorrect for the task at hand. Basically the JXTA 
+        API should be as simple as the JavaSpaces API is now. 
+      <p>
+Brad is heavily involved with <a href="http://java.mozdev.org">Mozilla </a> and <a href="http://java.mozdev.org/blackconnect">
+Java/Mozilla integration</a>.
+
+<p>
+Brad is an avid tap dancer, and enjoys performance art, meditation, yoga, politics, art as life and life as
+art.  He studied computer science and the humanities at Columbia University, and enjoys traveling and seeing
+new things.  
+
+<p>
+Brad invites you to contact him if you live in
+the Bay Area and want to get a beer and chat about JXTA. You can reach Brad at bkn3@columbia.edu.
+
+</TD></TR></TABLE><p>
+September 2003
+<p><hr><p>
+Back to the <a href="http://www.jxta.org/bios/BioArchive.html">Developer 
+Spotlight Archives</a>.
+
+
+ 

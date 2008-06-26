@@ -1,0 +1,42 @@
+
+<TABLE cellSpacing=0 cellPading=0 width="100%" border=0>
+<TR vAlign=top>
+<TD height=10><SPACER height="10" width="1" type="block"></TD></TR>
+<TR>
+<TD vAlign=top><FONT color=#990000><SPAN class=Header><B>Developer Spotlight</B></SPAN></FONT></TD></TR></TABLE><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR>
+<TD class=PlainText vAlign=top width="100%" height="100%"><BR><BR>
+
+<img src="/branding/images/JamesTodd.jpg" ALIGN="LEFT">
+
+<P> 
+James Todd, known as gonzo on the jxta.org aliases, is a Sun Microsystems employee based in Santa Clara, California. His role has predominately to apply JXTA features with complimentary enterprise deployment capabilities like that of JNDI/LDAP, WebStart/JNLP, etc. He also considers himself the general rebel rouser. He is the owner of the myjxta2 and rosettaChat projects. He'd like to merge/coopt rosettaChat into myjxta2
+as a service/feature.
+
+<p>
+
+James believes JXTA enables the developer to leverage resilient features, like those found in DNS and SendMail, directly within the application domain to:
+<ol><li>uplift application features</li>
+<li>provide pervassive deployments</li>
+<li>increased ease of use. </li></ol>
+Further, JXTA is a principal means by which Internet/internet based applications can escape the (limiting) four walls of the browser on devices large and small.
+
+<P> 
+
+Nathan believes JXTA is an extremely exciting technology for several reasons, but most importantly it is based on an open protocol.  Its advantages include XML support, logical separation of the network into groups, discovery over firewalls, and an open architecture that allows easy modification by end users.  His vision for JXTA, which is shared throughout the community, is that of a completely new platform for computing.  It will stand as the base of future network based applications.  Next generation technologies such as grid computing, user managed resource allocation, Web services, and many more could all be built on top of the JXTA network layer allowing for an extremely dynamic and extensible computing environment.
+
+<P>
+
+He has also helped roll out the initial release of Tomcat/Ant/WatchDog. James is a happy user of JDOM/Jaxen/Drools, Tomcat, Ant, and FreeTTS.
+
+<p>
+
+You can reach James at <a
+ class="moz-txt-link-abbreviated" href="mailto:james.todd@sun.com">james.todd@sun.com</a>
+
+</P></TD></TR></TABLE>
+<HR>
+Back to the <a href="http://www.jxta.org/bios/BioArchive.html">Developer 
+Spotlight Archives</a>.
+
+<P>

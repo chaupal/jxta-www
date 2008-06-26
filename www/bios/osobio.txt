@@ -1,0 +1,41 @@
+
+<TABLE cellSpacing=0 cellPading=0 width="100%" border=0>
+<TR vAlign=top>
+<TD height=10><SPACER height="10" width="1" type="block"></TD></TR>
+<TR>
+<TD vAlign=top><FONT color=#990000><SPAN class=Header><B>Developer Spotlight</B></SPAN></FONT></TD></TR></TABLE><TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR>
+<TD class=PlainText vAlign=top width="100%" height="100%"><BR><BR>
+<img src="/branding/images/oso.jpg" ALIGN="LEFT">
+<P>
+Serguei Osokine (Oso) of San Jose, California. Oso has been a member of the Project JXTA community since April 2001.
+Serguei Osokine, otherwise known as Oso, is located in San Jose,
+California.  For the last year, he's worked on the GnutellaNG project
+(later gPulp) and on the <a href="http://www.vadem.com/development/gnutella">Gnutella Development Forum,</a>
+designing the infinitely scalable flow control mechanisms for Gnutella.
+He is currently working for <a href="http://www.infolio.com">Infolio, Inc.</a></P>
+        
+<P>Oso started on Project JXTA on April 25, 2001. He spends approximately
+10% of his time on Project JXTA, attempting to merge the existing P2P
+efforts (like Gnutella) with Project JXTA. Oso wants to encourage
+community involvement to make sure that Project JXTA is not a
+stand-alone effort by Sun. He would like to see Project JXTA fit into
+the large picture and find it's proper place in the P2P landscape.</P>
+
+<P>Oso thinks that Project JXTA has an excellent chance of forming a set
+of P2P paradigms and generally accepted XML constructs that might be
+useful to the P2P community as a whole. According to Oso, Project JXTA
+can define the 'language' of the P2P, if it only manages to gain the
+wide acceptance in the P2P circles. He says that in order to do so,
+Project JXTA has to concentrate on what it does best, defining the
+P2P-specific semantical primitives and leveraging the existing concepts
+(like Gnutella routing or SOAP/XML-RPC) whenever possible.</P>
+
+<P>You can reach Oso at osokin@infolio.com or on the Project JXTA discuss mailing list.</a></P>
+
+</P></TD></TR></TABLE>
+<HR>
+Read the previous <a href="http://www.jxta.org/bios/BioArchive.html">Developer in the Spotlight</a> bios.
+</TD>
+<P>
+</TABLE>
